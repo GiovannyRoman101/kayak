@@ -3,7 +3,7 @@ import fetchJsonp from 'fetch-jsonp'
 import FlightCard from '../FlightCard/flight_card'
 import './flight_list.css'
 
-function flightlist() {
+function Flightlist() {
 	// could of used an array for the filter
 	const [isST, setIsST] = useState(false)
 	const [isOW, setIsOW] = useState(false)
@@ -81,4 +81,4 @@ function flightlist() {
 	)
 }
 
-export default flightlist
+export default Flightlist
