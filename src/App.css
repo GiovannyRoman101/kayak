@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.airline-text{
+	margin-top: 67px;
+	margin-bottom: 73px;
+	font-size: 44px;
+	font-weight: 900;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	color: #000000;
+}
+/* assuming that mockup has 94px on left and right */
+
+.list-container{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 94px;
+	align-items: center;
+	justify-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width:768px) {
+	.list-container{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-items: flex-start;
+		margin-left: 76px;
+		margin-right: 76px;
+		margin-bottom: 94px;
+	}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (min-width:1024px) {
+	.list-container{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-items: flex-start;
+		margin-left: 46px;
+		margin-right: 46px;
+		margin-bottom: 94px;
+	}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width:1440px) {
+	.list-container{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-items: flex-start;
+		margin-left: 94px;
+		margin-right: 94px;
+		margin-bottom: 94px;
+	}
 }
 
-.App-link {
-  color: #61dafb;
+
+.filter-text{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-size: 16px;
+	font-weight: bold;
+	color: #192024
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkbox-text{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-size: 14px;
+	font-weight: normal;
+	color: #192024;
 }

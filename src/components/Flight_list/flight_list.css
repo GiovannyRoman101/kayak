@@ -1,0 +1,104 @@
+.input-containers{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 56px;
+}
+
+.overall{
+	display: flex;
+	flex-direction: column;
+}
+
+.input-box{
+	min-width: 20px;
+	min-height: 20px;
+	margin-right: 10px;
+}
+
+.input-text{
+	font-size: 14px;
+	font-weight: normal;
+	color: #192024
+}
+.input-container{
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
+}
+/* need to adjust for different screen */
+/* @media (mid-width:900px) {
+	.flightlist-container{
+		display: grid;
+		max-width:1256px;
+		row-gap: 16px;
+		height: 766px;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		column-gap: 16px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+ */
+
+.flightlist-container{
+	display: grid;
+	max-width:620px;
+	row-gap: 16px;
+	height: 766px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	column-gap: 16px;
+	grid-template-columns: repeat(1, 1fr);
+	justify-items: center;
+}
+
+@media(min-width:768px){
+	.flightlist-container{
+		display: grid;
+		max-width:620px;
+		row-gap: 16px;
+		height: 766px;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		column-gap: 16px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width:1024px) {
+	.flightlist-container{
+		display: grid;
+		max-width:1256px;
+		row-gap: 16px;
+		height: 766px;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		column-gap: 16px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (min-width:1440px) {
+	.flightlist-container{
+		display: grid;
+		max-width:1256px;
+		row-gap: 16px;
+		height: 766px;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		column-gap: 16px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+
+
+.flightlist-container::-webkit-scrollbar{
+	display: none;
+}
+
+.flightlist-container{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}

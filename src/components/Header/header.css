@@ -1,0 +1,14 @@
+.header-container{
+	background-color: #FFFFFF;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+
+.kayak-logo{
+	margin-top: 19px;
+	margin-bottom: 19px;
+	margin-left: 16px;
+}
+

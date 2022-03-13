@@ -1,0 +1,69 @@
+.card-box{
+	border-radius: 8px;
+	box-shadow: 0 -1px 4px 0 rgba(25,32,36,0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+	border: solid 1px #363f45;
+	width: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	max-height: 240px;
+	min-height: 240px;
+	height: 240px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-detail{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-title-text{
+	font-weight: bold;
+	color: #192024;
+	font-size: 16px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-title-text-alt{
+	font-weight: bold;
+	color: #192024;
+	font-size: 14px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.title-image{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.hyperlink{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5a6872;
+	text-decoration:none;
+}
+
+.alliance-and-phone{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #192024;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+.airlogo{
+	height: 32px;
+	width: 32px;
+	min-width: 32px;
+	max-width: 32px;
+	min-height: 32px;
+	max-height: 32px;
+	margin-right: 18px;
+}
